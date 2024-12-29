@@ -1,9 +1,17 @@
+import { useState } from "react";
 import Select from ".";
 import { SelectProps } from "./select.types";
 
 export default {
   title: "Select",
   component: Select,
+};
+
+const Template = (args: SelectProps) => {
+  const [value, setValue] = useState<string | number>("");
+  return (
+    <Select {...args} value={value} onChange={(value) => setValue(value)} />
+  );
 };
 
 export const Default = {
@@ -33,6 +41,7 @@ export const Default = {
     ],
     onChange: (value: string) => console.log(value),
   },
+  render: Template,
 } as { args: SelectProps };
 
 export const WithFlags = {
@@ -70,4 +79,5 @@ export const WithFlags = {
     ],
     onChange: (value: string) => console.log(value),
   },
+  render: Template,
 } as { args: SelectProps };

@@ -8,4 +8,7 @@ export interface SelectProps {
   }>;
   name?: string;
   placeholder?: string;
+  disabled?: boolean;
+  fullWidth?: boolean;
+  rounded?: "none" | "sm" | "md" | "lg" | "full";
 }

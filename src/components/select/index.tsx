@@ -5,6 +5,7 @@ import { SelectProps } from "./select.types";
 import ThemeProvider from "../theme-provider";
 
 const Select = ({
+  className,
   value,
   onChange,
   options,
@@ -39,7 +40,7 @@ const Select = ({
   return (
     <ThemeProvider>
       <div
-        className={classNames("w-max", {
+        className={classNames(className, "w-max", {
           "w-full": fullWidth,
         })}
       >

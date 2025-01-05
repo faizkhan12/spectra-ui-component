@@ -3,7 +3,8 @@ import classNames from "classnames";
 import ThemeProvider from "../theme-provider";
 
 const Button = ({
-  title,
+  className,
+  label,
   variant = "contained",
   onClick,
   disabled,
@@ -16,7 +17,7 @@ const Button = ({
   return (
     <ThemeProvider>
       <button
-        className={classNames("px-5 cursor-pointer shadow-none", {
+        className={classNames(className, "px-5 cursor-pointer shadow-none", {
           "border border-solid border-primary": variant === "outlined",
           "bg-primary text-white":
             variant === "contained" && !disabled && !loading,
@@ -47,7 +48,7 @@ const Button = ({
           ></div>
         )}
         {icon && icon}
-        {title}
+        {label}
       </button>
     </ThemeProvider>
   );

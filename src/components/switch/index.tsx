@@ -4,6 +4,7 @@ import classNames from "classnames";
 import ThemeProvider from "../theme-provider";
 
 const Switch = ({
+  className,
   label,
   checked,
   onChange,
@@ -13,7 +14,7 @@ const Switch = ({
   return (
     <ThemeProvider>
       <div
-        className={classNames("flex gap-1", {
+        className={classNames(className, "flex gap-1", {
           "flex-row ": orientation === "horizontal",
           "flex-col": orientation === "vertical",
         })}
@@ -21,7 +22,7 @@ const Switch = ({
         <span className="text-sm">{label}</span>
         <div
           className={classNames(
-            "flex bg-gray-400 w-10 p-1 rounded-full cursor-pointer",
+            "flex bg-gray-400 w-10 p-1 rounded-full cursor-pointer ",
             {
               "bg-primary justify-end": checked,
               "opacity-50 pointer-events-none cursor-not-allowed": disabled,

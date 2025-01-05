@@ -2,55 +2,55 @@ import Button from ".";
 import { ButtonProps } from "./button.types";
 
 export default {
-  title: "Button",
+  label: "Button",
   component: Button,
 };
 
 export const Contained = {
   args: {
-    title: "Click Me",
+    label: "Click Me",
     variant: "contained",
   },
 } as { args: ButtonProps };
 
 export const Outlined = {
   args: {
-    title: "Click Me",
+    label: "Click Me",
     variant: "outlined",
   },
 } as { args: ButtonProps };
 
 export const Small = {
   args: {
-    title: "Click Me",
+    label: "Click Me",
     size: "small",
   },
 } as { args: ButtonProps };
 
 export const Medium = {
   args: {
-    title: "Click Me",
+    label: "Click Me",
     size: "medium",
   },
 } as { args: ButtonProps };
 
 export const Large = {
   args: {
-    title: "Click Me",
+    label: "Click Me",
     size: "large",
   },
 } as { args: ButtonProps };
 
 export const Disabled = {
   args: {
-    title: "Click Me",
+    label: "Click Me",
     disabled: true,
   },
 } as { args: ButtonProps };
 
 export const IconLeft = {
   args: {
-    title: "Click Me",
+    label: "Click Me",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@ export const IconLeft = {
 
 export const IconRight = {
   args: {
-    title: "Click Me",
+    label: "Click Me",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +88,7 @@ export const IconRight = {
 
 export const WithLoaders = {
   args: {
-    title: "Click Me",
+    label: "Click Me",
     loading: true,
   },
 } as { args: ButtonProps };

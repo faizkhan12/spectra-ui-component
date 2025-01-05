@@ -1,5 +1,6 @@
 export interface ButtonProps {
-  title: string;
+  className?: string;
+  label: string;
   variant?: "outlined" | "contained";
   onClick?: () => void;
   disabled?: boolean;

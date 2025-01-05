@@ -3,6 +3,7 @@ import classNames from "classnames";
 import ThemeProvider from "../theme-provider";
 
 const Input = ({
+  className,
   name = "",
   label = "",
   type = "text",
@@ -17,7 +18,7 @@ const Input = ({
 }: InputProps) => {
   return (
     <ThemeProvider>
-      <div className="flex flex-col gap-1 w-max">
+      <div className={classNames(className, "flex flex-col gap-1 w-max")}>
         <label htmlFor={label} className="text-sm">
           {label}
           {required && <span className="text-red-500"> *</span>}

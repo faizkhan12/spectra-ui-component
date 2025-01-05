@@ -2,6 +2,7 @@ import classNames from "classnames";
 import { RadioProps } from "./radio.types";
 
 const Radio = ({
+  className,
   value = "",
   onChange = () => {},
   options,
@@ -10,7 +11,7 @@ const Radio = ({
   orientation = "horizontal",
 }: RadioProps) => {
   return (
-    <div className="flex flex-col gap-2">
+    <div className={classNames(className, "flex flex-col gap-2")}>
       <span className="text-sm">{label}</span>
       <div
         className={classNames("flex gap-5 flex-wrap", {

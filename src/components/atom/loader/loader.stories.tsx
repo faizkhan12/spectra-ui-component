@@ -4,6 +4,7 @@ import { LoaderProps } from "./loader.props";
 export default {
   title: "atom/Loader",
   component: Loader,
+  tags: ["autodocs"],
 };
 
 export const Regular = {

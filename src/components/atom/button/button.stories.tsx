@@ -4,6 +4,7 @@ import { ButtonProps } from "./button.types";
 export default {
   title: "atom/Button",
   component: Button,
+  tags: ["autodocs"],
 };
 
 export const Contained = {

@@ -6,6 +6,7 @@ import Button from "../../atom/button";
 export default {
   title: "block/Modal",
   component: Modal,
+  tags: ["autodocs"],
 };
 
 const Template = (args: ModalProps) => {

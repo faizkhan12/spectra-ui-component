@@ -4,6 +4,7 @@ import { AlertProps } from "./alert.props";
 export default {
   component: Alert,
   title: "molecule/Alert",
+  tags: ["autodocs"],
 };
 
 export const Info = {

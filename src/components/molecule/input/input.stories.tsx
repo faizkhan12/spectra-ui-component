@@ -4,6 +4,7 @@ import { InputProps } from "./input.types";
 export default {
   title: "molecule/Input",
   component: Input,
+  tags: ["autodocs"],
 };
 
 export const Default = {

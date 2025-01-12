@@ -5,6 +5,7 @@ import { TabsProps } from "./tabs.props";
 export default {
   title: "block/Tabs",
   component: Tabs,
+  tags: ["autodocs"],
 };
 
 const tabsData = [

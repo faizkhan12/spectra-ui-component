@@ -5,6 +5,7 @@ import { SwitchProps } from "./switch.types";
 export default {
   title: "molecule/Switch",
   component: Switch,
+  tags: ["autodocs"],
 };
 
 const Template = (args: SwitchProps) => {

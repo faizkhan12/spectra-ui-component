@@ -5,6 +5,7 @@ import { RadioProps } from "./radio.types";
 export default {
   title: "molecule/Radio",
   component: Radio,
+  tags: ["autodocs"],
 };
 
 const Template = (args: RadioProps) => {

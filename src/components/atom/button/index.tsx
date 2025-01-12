@@ -1,6 +1,6 @@
-import { ButtonProps } from "./button.types";
 import classNames from "classnames";
-import ThemeProvider from "../theme-provider";
+import { ButtonProps } from "./button.types";
+import ThemeProvider from "../../block/theme-provider";
 
 const Button = ({
   className,

@@ -1,7 +1,7 @@
 import ThemeProvider, { ThemeProvoderProps } from ".";
 
 export default {
-  title: "Theme Provider",
+  title: "block/Theme Provider",
   component: ThemeProvider,
 };
 

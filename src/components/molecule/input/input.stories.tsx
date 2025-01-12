@@ -2,7 +2,7 @@ import Input from ".";
 import { InputProps } from "./input.types";
 
 export default {
-  title: "Input",
+  title: "molecule/Input",
   component: Input,
 };
 

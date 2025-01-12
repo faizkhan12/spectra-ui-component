@@ -3,7 +3,7 @@ import Tabs from ".";
 import { TabsProps } from "./tabs.props";
 
 export default {
-  title: "Tabs",
+  title: "block/Tabs",
   component: Tabs,
 };
 

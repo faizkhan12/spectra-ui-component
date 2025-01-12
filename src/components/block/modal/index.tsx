@@ -1,7 +1,7 @@
 import { X } from "lucide-react";
 import { ModalProps } from "./modal.types";
 import classNames from "classnames";
-import Button from "../button";
+import Button from "../../atom/button";
 
 const Modal = ({
   showModal,

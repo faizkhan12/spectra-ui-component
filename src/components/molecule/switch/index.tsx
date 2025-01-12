@@ -1,7 +1,7 @@
 import React from "react";
 import { SwitchProps } from "./switch.types";
 import classNames from "classnames";
-import ThemeProvider from "../theme-provider";
+import ThemeProvider from "../../block/theme-provider";
 
 const Switch = ({
   className,

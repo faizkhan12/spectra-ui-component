@@ -1,6 +1,6 @@
 import { InputProps } from "./input.types";
 import classNames from "classnames";
-import ThemeProvider from "../theme-provider";
+import ThemeProvider from "../../block/theme-provider";
 
 const Input = ({
   className,

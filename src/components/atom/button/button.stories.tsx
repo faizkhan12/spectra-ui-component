@@ -2,7 +2,7 @@ import Button from ".";
 import { ButtonProps } from "./button.types";
 
 export default {
-  label: "Button",
+  title: "atom/Button",
   component: Button,
 };
 

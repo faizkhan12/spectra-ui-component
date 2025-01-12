@@ -3,7 +3,7 @@ import Switch from ".";
 import { SwitchProps } from "./switch.types";
 
 export default {
-  title: "Switch",
+  title: "molecule/Switch",
   component: Switch,
 };
 

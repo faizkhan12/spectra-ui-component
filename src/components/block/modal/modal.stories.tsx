@@ -1,10 +1,10 @@
 import { useState } from "react";
 import Modal from ".";
 import { ModalProps } from "./modal.types";
-import Button from "../button";
+import Button from "../../atom/button";
 
 export default {
-  title: "Modal",
+  title: "block/Modal",
   component: Modal,
 };
 

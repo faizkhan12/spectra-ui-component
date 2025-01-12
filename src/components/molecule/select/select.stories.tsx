@@ -3,7 +3,7 @@ import Select from ".";
 import { SelectProps } from "./select.types";
 
 export default {
-  title: "Select",
+  title: "molecule/Select",
   component: Select,
 };
 

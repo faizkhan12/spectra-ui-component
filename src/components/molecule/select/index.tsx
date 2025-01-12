@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import classNames from "classnames";
 import { SelectProps } from "./select.types";
-import ThemeProvider from "../theme-provider";
+import ThemeProvider from "../../block/theme-provider";
 
 const Select = ({
   className,

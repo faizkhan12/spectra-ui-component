@@ -3,7 +3,7 @@ import { AlertProps } from "./alert.props";
 
 export default {
   component: Alert,
-  title: "Alert",
+  title: "molecule/Alert",
 };
 
 export const Info = {

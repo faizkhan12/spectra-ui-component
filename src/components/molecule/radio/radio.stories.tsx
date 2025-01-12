@@ -3,7 +3,7 @@ import Radio from ".";
 import { RadioProps } from "./radio.types";
 
 export default {
-  title: "Radio",
+  title: "molecule/Radio",
   component: Radio,
 };
 

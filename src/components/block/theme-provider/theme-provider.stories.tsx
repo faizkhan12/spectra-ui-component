@@ -3,6 +3,7 @@ import ThemeProvider, { ThemeProvoderProps } from ".";
 export default {
   title: "block/Theme Provider",
   component: ThemeProvider,
+  tags: ["autodocs"],
 };
 
 export const defaultTheme = {

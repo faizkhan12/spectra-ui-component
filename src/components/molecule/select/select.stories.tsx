@@ -5,6 +5,7 @@ import { SelectProps } from "./select.types";
 export default {
   title: "molecule/Select",
   component: Select,
+  tags: ["autodocs"],
 };
 
 const Template = (args: SelectProps) => {
